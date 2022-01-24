@@ -1,0 +1,40 @@
+{
+	"name": "@younho9/prettier-config",
+	"version": "2.3.0",
+	"description": "Shared prettier config that personally prefer",
+	"keywords": [
+		"prettier"
+	],
+	"bugs": {
+		"url": "https://github.com/younho9/prettier-config/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/younho9/prettier-config.git"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "Younho Choo",
+		"email": "yo+github@younho9.com",
+		"url": "https://younho9.dev"
+	},
+	"type": "commonjs",
+	"exports": "./prettier.config.cjs",
+	"main": "prettier.config.cjs",
+	"files": [
+		".prettierignore",
+		"prettier.config.cjs"
+	],
+	"dependencies": {
+		"@types/prettier": "2.4.1"
+	},
+	"devDependencies": {
+		"prettier": "2.4.1"
+	},
+	"peerDependencies": {
+		"prettier": "*"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
+}
