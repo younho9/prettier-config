@@ -2,13 +2,13 @@
 
 > Shared prettier config that personally prefer
 
-## Usage
-
-Install `@younho9/prettier-config` with peerDependencies.
+## Install
 
 ```sh
-npm install --dev prettier @younho9/prettier-config
+$ npm install --save-dev prettier @younho9/prettier-config
 ```
+
+## Usage
 
 Add `prettier` key to your `package.json`
 
