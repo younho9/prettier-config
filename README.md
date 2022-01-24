@@ -13,10 +13,10 @@ npm install --dev prettier @younho9/prettier-config
 Add `prettier` key to your `package.json`
 
 ```diff
-  "keywords": ["prettier"],
-+ "prettier": "@younho9/prettier-config",
-  "license": "MIT",
-  "main": "index.js"
+	"keywords": ["prettier"],
++	"prettier": "@younho9/prettier-config",
+	"license": "MIT",
+	"main": "index.js"
 ```
 
 ### [.prettierignore](./.prettierignore)
