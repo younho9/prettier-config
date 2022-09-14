@@ -26,7 +26,8 @@
 		"prettier.config.cjs"
 	],
 	"dependencies": {
-		"@types/prettier": "2.4.1"
+		"@types/prettier": "2.4.1",
+		"prettier-plugin-tailwindcss": "^0.1.13"
 	},
 	"devDependencies": {
 		"prettier": "2.4.1"

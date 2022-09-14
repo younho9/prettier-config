@@ -20,4 +20,5 @@ module.exports = {
 	quoteProps: 'consistent',
 	vueIndentScriptAndStyle: false,
 	embeddedLanguageFormatting: 'auto',
+	plugins: [require('prettier-plugin-tailwindcss')],
 };
